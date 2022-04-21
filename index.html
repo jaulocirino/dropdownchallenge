@@ -1,99 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="icon" type="image/png" sizes="32x32" img alt="favorite icon" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-  <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-  <a class="logo" href="#"><img src ="images/logo.svg"></a>
+    <header role="header">
+        <a><img src="images/logo.svg" alt="logo"></a>
 
-  <input type="checkbox" name="" id="menu-bar">
-  <label for="menu-bar"></label>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar"></label>
 
-      <nav class="navbar">
+        <nav class="navbar" role="navigation">
 
-      <ul>
-        <li><a href="#">Features <img src="images/icon-arrow-down.svg"></a>
-          <ul>
-            <li><a href="#"><img src="images/icon-todo.svg">To do list</a></li>
-            <li><a href="#"><img src="images/icon-calendar.svg">Calendar</a></li>
-            <li><a href="#"><img src="images/icon-reminders.svg">Reminders</a></li>
-            <li><a href="#"><img src="images/icon-planning.svg">Planning</a></li>
-          </ul>
-        </li>
+            <ul>
+                <li><a href="#">Features <img src="images/icon-arrow-down.svg" alt="arrow down"></a>
+                    <ul>
+                        <li>
+                            <a href="index.html"><img src="images/icon-todo.svg" alt="to-do list">To do list</a>
+                        </li>
+                        <li>
+                            <a href="index.html"><img src="images/icon-calendar.svg" alt="calendar">Calendar</a>
+                        </li>
+                        <li>
+                            <a href="index.html"><img src="images/icon-reminders.svg" alt="reminders">Reminders</a>
+                        </li>
+                        <li>
+                            <a href="index.html"><img src="images/icon-planning.svg" alt="planning">Planning</a>
+                        </li>
+                    </ul>
+                </li>
 
-        <li><a href="#">Company <img src="images/icon-arrow-down.svg"></a>
-          <ul>
-            <li><a href="#"><img src="">History</a></li>
-            <li><a href="#"><img src="">Our Team</a></li>
-            <li><a href="#"><img src="">Blog</a></li>
-          </ul>
-        </li>
+                <li><a href="index.html">Company <img src="images/icon-arrow-down.svg" alt="arrow down"></a>
+                    <ul>
+                        <li>
+                            <a href="index.html"><img src="">History</a>
+                        </li>
+                        <li>
+                            <a href="index.html"><img src="">Our Team</a>
+                        </li>
+                        <li>
+                            <a href="index.html"><img src="">Blog</a>
+                        </li>
+                    </ul>
+                </li>
 
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
+                <li><a href="index.html">Careers</a></li>
+                <li><a href="index.html">About</a></li>
+            </ul>
 
-    </nav>
-    <div>
-      <button class="learn">Login</button>
-      <button class="reg">Register</button>
-    </div>
-</header>
-  
-  
-  
-<section class="hero">
-  <div>
-    <img class="hero-image" src="images/image-hero-desktop.png"></img>
-  </div>
-
-    <div class="hero-text">
-      
-
-      <h1 class="hero-header"><br>Make <br>remote work</h1>
-      <p class="hero-copy">Get your team in sync, no matter your location. <br> Streamline processes, 
-      create team rituals, and watch productivity soar.<br></p>
-
-        <button class="btn--learn">Learn more</button>
-
-        <div class="client-list">
-          <ul>
-            <li><img src="images/client-audiophile.svg"></li>
-            <li><img src="images/client-databiz.svg"></li>
-            <li><img src="images/client-maker.svg"></li>
-            <li><img src="images/client-meet.svg"></li>
-          </ul>
+        </nav>
+        <div>
+            <button class="learn"><a href="index.html">Login</a></button>
+            <button class="reg"><a href="index.html">Register</a></button>
         </div>
+    </header>
+
+
+
+    <section class="hero" role="main">
+        <div>
+            <img class="hero-image" src="images/image-hero-desktop.png" alt="man holding laptop"></img>
+        </div>
+
+        <div class="hero-text">
+
+
+            <h1 class="hero-header"><br>Make <br>remote work</h1>
+            <p class="hero-copy">Get your team in sync, no matter your location. <br> Streamline processes, create team rituals, and watch productivity soar.<br></p>
+
+            <button class="btn--learn"><a href="index.html"> Learn More</a></button>
+
+
+            <div class="client-list" role="clients">
+                <ul>
+                    <li><img src="images/client-audiophile.svg"></li>
+                    <li><img src="images/client-databiz.svg"></li>
+                    <li><img src="images/client-maker.svg"></li>
+                    <li><img src="images/client-meet.svg"></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <div class="attribution" role="contentinfo">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/jaulocirino/">jaulocirino</a>.
     </div>
-
-
-
-
-</section>
-
-  
-
-  
-
-  
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/jaulocirino/">jaulocirino</a>.
-  </div>
 </body>
+
 </html>
