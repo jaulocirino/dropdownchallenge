@@ -13,23 +13,83 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  Features
-  Company
-  Careers
-  About
+<header>
+  <a class="logo" href="#"><img src ="images/logo.svg"></a>
 
-  Login
-  Register
+  <input type="checkbox" name="" id="menu-bar">
+  <label for="menu-bar"></label>
 
-  Make remote work
+      <nav class="navbar">
 
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
+      <ul>
+        <li><a href="#">Features <img src="images/icon-arrow-down.svg"></a>
+          <ul>
+            <li><a href="#"><img src="images/icon-todo.svg"></a>To do list</li>
+            <li><a href="#"><img src="images/icon-calendar.svg"></a>Calendar</li>
+            <li><a href="#"><img src="images/icon-reminders.svg"></a>Reminders</li>
+            <li><a href="#"><img src="images/icon-planning.svg"></a>Planning</li>
+          </ul>
+        </li>
 
-  Learn more
+        <li><a href="#">Company <img src="images/icon-arrow-down.svg"></a>
+          <ul>
+            <li><a href="#"><img src=""></a>History</li>
+            <li><a href="#"><img src=""></a>Our Team</li>
+            <li><a href="#"><img src=""></a>Blog</li>
+          </ul>
+        </li>
+
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+
+    </nav>
+    <div>
+      <button class="learn">Login</button>
+      <button class="reg">Register</button>
+    </div>
+</header>
+  
+  
+  
+<section class="hero">
+  <div>
+    <img class="hero-image" src="images/image-hero-desktop.png"></img>
+  </div>
+
+    <div class="hero-text">
+      
+
+      <h1 class="hero-header"><br>Make <br>remote work</h1>
+      <p class="hero-copy">Get your team in sync, no matter your location. <br> Streamline processes, 
+      create team rituals, and watch productivity soar.<br></p>
+
+        <button class="btn--learn">Learn more</button>
+
+        <div class="client-list">
+          <ul>
+            <li><img src="images/client-audiophile.svg"></li>
+            <li><img src="images/client-databiz.svg"></li>
+            <li><img src="images/client-maker.svg"></li>
+            <li><img src="images/client-meet.svg"></li>
+          </ul>
+        </div>
+    </div>
+
+
+
+
+</section>
+
+  
+
+  
+
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
